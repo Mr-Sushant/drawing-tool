@@ -21,11 +21,13 @@ const Toolbox = () => {
       <div className={styles.toolItem}>
         <h4 className={styles.toolText}>Stroke Color</h4>
         <div className={styles.itemContainer}>
-            {
-                COLORS.map((COLOR) => (
-                    <div className={styles.colorBox} key = {COLOR} style={{backgroundColor:COLOR.color}}/>
-                ))
-            }
+            <div className={styles.colorBox} style={{backgroundColor:COLORS.BLACK}}/>
+            <div className={styles.colorBox} style={{backgroundColor:COLORS.RED}}/>
+            <div className={styles.colorBox} style={{backgroundColor:COLORS.GREEN}}/>
+            <div className={styles.colorBox} style={{backgroundColor:COLORS.BLUE}}/>
+            <div className={styles.colorBox} style={{backgroundColor:COLORS.ORANGE}}/>
+            <div className={styles.colorBox} style={{backgroundColor:COLORS.YELLOW}}/>
+            <div className={styles.colorBox} style={{backgroundColor:COLORS.GREY}}/>
         </div>
       </div>
       }

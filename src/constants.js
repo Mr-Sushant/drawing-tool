@@ -1,13 +1,12 @@
-const COLORS = [
-    {color: 'black'},
-    {color: 'red'},
-    {color: 'green'},
-    {color: 'blue'},
-    {color: 'orange'},
-    {color: 'yellow'},
-    {color: 'grey'}
-]
-
+const COLORS = {
+    BLACK: 'black',
+    RED: 'red',
+    GREEN: 'green',
+    BLUE: 'blue',
+    ORANGE: 'orange',
+    YELLOW: 'yellow',
+    GREY: 'grey'
+}
 const MENU = {
     PENCIL:'PENCIL',
     ERASER: 'ERASER',
