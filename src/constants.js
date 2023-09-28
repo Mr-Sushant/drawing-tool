@@ -8,4 +8,12 @@ const COLORS = [
     {color: 'grey'}
 ]
 
-export {COLORS};
+const MENU = {
+    PENCIL:'PENCIL',
+    ERASER: 'ERASER',
+    UNDO: 'UNDO',
+    REDO: 'REDO',
+    DOWNLOAD: 'DOWNLOAD'
+}
+
+export {COLORS, MENU}
