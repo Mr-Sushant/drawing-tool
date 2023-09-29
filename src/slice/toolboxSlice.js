@@ -1,18 +1,18 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { MENU, COLORS } from '@/constants'
+import { MENU_ITEMS, COLORS } from '@/constants'
 
 const initialState = {
-    [MENU.PENCIL]: {
+    [MENU_ITEMS.PENCIL]: {
         color: COLORS.BLACK,
         size: 3
     },
-    [MENU.ERASER]: {
-        color: "white",
+    [MENU_ITEMS.ERASER]: {
+        color: COLORS.WHITE,
         size: 3
     },
-    [MENU.UNDO]: {},
-    [MENU.REDO]: {},
-    [MENU.DOWNLOAD]: {},
+    [MENU_ITEMS.UNDO]: {},
+    [MENU_ITEMS.REDO]: {},
+    [MENU_ITEMS.DOWNLOAD]: {},
 }
 
 export const toolboxSlice = createSlice({

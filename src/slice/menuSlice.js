@@ -1,7 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { MENU } from '@/constants'
+import { MENU_ITEMS } from '@/constants'
+
 const initialState = {
-    activeMenuItem: MENU.PENCIL,
+    activeMenuItem: MENU_ITEMS.PENCIL,
     actionMenuItem: null
 }
 

@@ -5,14 +5,15 @@ const COLORS = {
     BLUE: 'blue',
     ORANGE: 'orange',
     YELLOW: 'yellow',
-    GREY: 'grey'
+    WHITE: 'white'
 }
-const MENU = {
-    PENCIL:'PENCIL',
+
+const MENU_ITEMS = {
+    PENCIL: 'PENCIL',
     ERASER: 'ERASER',
     UNDO: 'UNDO',
     REDO: 'REDO',
     DOWNLOAD: 'DOWNLOAD'
 }
 
-export {COLORS, MENU}
+export {COLORS, MENU_ITEMS}
