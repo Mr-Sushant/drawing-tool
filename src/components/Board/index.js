@@ -1,7 +1,9 @@
 import { useEffect, useLayoutEffect, useRef } from "react";
 import { useSelector, useDispatch } from 'react-redux'
 import { MENU } from "@/constants";
+import { menuItemClick, actionItemClick } from "@/slice/menuSlice";
 const Board = () => {
+    const dispatch = useDispatch();
     const canvasRef = useRef(null);
     const shouldDraw = useRef(false);
     const activeMenuItem = useSelector((state) => state.menu.activeMenuItem);
@@ -22,6 +24,7 @@ const Board = () => {
             anchor.click();
             console.log(URL);
         }
+        dispatch(actionItemClick(null));
     },[actionMenuItem]);
     
     useEffect(() => {
